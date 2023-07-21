@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="password" value="amzntester23"/>
+  <parameter name="Yourname" value="KhushiQA123"/>
+  <parameter name="Email" value="Mavennn@gmail.com"/>
+  <parameter name="blank" value=""/>
+  <parameter name="quantity" value="2"/>
+  <parameter name="twotabsearchtextbox" value="selenium webdriver"/>
+  <parameter name="passwordCheck" value="123456"/>
+  <parameter name="invalidemail" value="amzn.tester232323@gmail.com"/>
+  <parameter name="email" value="amzn.tester23@gmail.com"/>
+  <parameter name="Password" value="123456"/>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.MySeleniumMavenAssignment.tests.SignInTest">
+        <methods>
+          <include name="resultTest"/>
+          <include name="intializeDriver"/>
+          <include name="InValidUserSignIn" invocation-numbers="0"/>
+          <include name="startTest"/>
+          <include name="openUrl"/>
+          <include name="endReport"/>
+          <include name="testclose"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.MySeleniumMavenAssignment.tests.SignInTest -->
+      <class name="com.MySeleniumMavenAssignment.tests.HelpTest">
+        <methods>
+          <include name="resultTest"/>
+          <include name="intializeDriver"/>
+          <include name="startTest"/>
+          <include name="openUrl"/>
+          <include name="endReport"/>
+          <include name="testclose"/>
+          <include name="Help"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.MySeleniumMavenAssignment.tests.HelpTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

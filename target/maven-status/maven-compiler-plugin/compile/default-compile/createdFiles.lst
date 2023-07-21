@@ -1,0 +1,6 @@
+com\MySeleniumMavenAssignment\pages\HelpPage.class
+com\MySeleniumMavenAssignment\pages\NewUserAccountPage.class
+com\MySeleniumMavenAssignment\pages\SearchboxPage.class
+com\MySeleniumMavenAssignment\utils\Screenshot.class
+com\MySeleniumMavenAssignment\pages\ShoppingCartPage.class
+com\MySeleniumMavenAssignment\pages\SignInPage.class

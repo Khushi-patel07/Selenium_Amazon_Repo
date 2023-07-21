@@ -1,0 +1,5 @@
+11:42:42,162 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+11:42:43,450 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+11:42:45,881 [main] INFO  com.MySeleniumMavenAssignment.tests.HelpTest- It is a Amazon Help Page
+11:42:45,884 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+11:42:46,021 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name='Yourname' value='KhushiQA123' />
+	<parameter name='Email' value='Mavennn@gmail.com' />
+	<parameter name='Password' value='123456' />
+	<parameter name='email' value='amzn.tester23@gmail.com' />
+	<parameter name='password' value='amzntester23' />
+	<parameter name='invalidemail' value='amzn.tester232323@gmail.com' />
+	<parameter name='blank' value='' />
+	<parameter name='twotabsearchtextbox' value='selenium webdriver' />
+	<parameter name='quantity' value='2' />
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<include name='sanity' />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.MySeleniumMavenAssignment.tests.NewUserAccountTest" />
+			<class name="com.MySeleniumMavenAssignment.tests.SignInTest" />
+			<class name="com.MySeleniumMavenAssignment.tests.SearchboxTest" />
+			<class name="com.MySeleniumMavenAssignment.tests.ShoppingCartTest" />
+			<class name="com.MySeleniumMavenAssignment.tests.HelpTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

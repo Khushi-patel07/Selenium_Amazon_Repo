@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="amzntester23"/>
+  <parameter name="Yourname" value="KhushiQA123"/>
+  <parameter name="Email" value="Mavennn@gmail.com"/>
+  <parameter name="blank" value=""/>
+  <parameter name="quantity" value="2"/>
+  <parameter name="twotabsearchtextbox" value="selenium webdriver"/>
+  <parameter name="invalidemail" value="amzn.tester232323@gmail.com"/>
+  <parameter name="email" value="amzn.tester23@gmail.com"/>
+  <parameter name="Password" value="123456"/>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.MySeleniumMavenAssignment.tests.SignInTest">
+        <methods>
+          <include name="intializeDriver"/>
+          <include name="resultTest"/>
+          <include name="startTest"/>
+          <include name="openUrl"/>
+          <include name="endReport"/>
+          <include name="ValidUserSignIn" invocation-numbers="0"/>
+          <include name="testclose"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.MySeleniumMavenAssignment.tests.SignInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

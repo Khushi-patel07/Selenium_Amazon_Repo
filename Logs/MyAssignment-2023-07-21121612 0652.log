@@ -1,0 +1,4 @@
+12:16:14,195 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+12:16:16,039 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+12:16:19,310 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case failed
+12:16:19,442 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed

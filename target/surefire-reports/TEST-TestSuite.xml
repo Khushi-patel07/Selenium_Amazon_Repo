@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="50.347" tests="7" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="./Drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\khushipatel\eclipse-workspace\MySeleniumMavenAssignment\target\test-classes;C:\Users\khushipatel\eclipse-workspace\MySeleniumMavenAssignment\target\classes;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\khushipatel\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\khushipatel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\khushipatel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\khushipatel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\khushipatel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\khushipatel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\khushipatel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\khushipatel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\khushipatel\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\khushipatel\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\khushipatel\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\khushipatel\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\khushipatel\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\khushipatel\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\khushipatel\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\khushipatel\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\khushipatel\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\khushipatel\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\khushipatel\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\khushipatel\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\khushipatel\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\khushipatel\.m2\repository\org\apache\logging\log4j\log4j-api\2.8\log4j-api-2.8.jar;C:\Users\khushipatel\.m2\repository\org\apache\logging\log4j\log4j-core\2.8\log4j-core-2.8.jar;C:\Users\khushipatel\.m2\repository\software\reinvent\headless-chrome\0.3.6\headless-chrome-0.3.6.jar;C:\Users\khushipatel\.m2\repository\software\reinvent\commons\0.3.9\commons-0.3.9.jar;C:\Users\khushipatel\.m2\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;C:\Users\khushipatel\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\khushipatel\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\khushipatel\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\khushipatel\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\khushipatel\.m2\repository\com\typesafe\config\1.3.3\config-1.3.3.jar;C:\Users\khushipatel\.m2\repository\org\unbescape\unbescape\1.1.5.RELEASE\unbescape-1.1.5.RELEASE.jar;C:\Users\khushipatel\.m2\repository\com\github\rholder\guava-retrying\2.0.0\guava-retrying-2.0.0.jar;C:\Users\khushipatel\.m2\repository\com\github\mfornos\humanize-slim\1.2.2\humanize-slim-1.2.2.jar;C:\Users\khushipatel\.m2\repository\org\ocpsoft\prettytime\prettytime\3.2.5.Final\prettytime-3.2.5.Final.jar;C:\Users\khushipatel\.m2\repository\me\xuender\unidecode\0.0.7\unidecode-0.0.7.jar;C:\Users\khushipatel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\khushipatel\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\khushipatel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\khushipatel\.m2\repository\com\assertthat\selenium-shutterbug\0.7\selenium-shutterbug-0.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\.Net &amp; Java Software\Open JKD -11\bin"/>
+    <property name="sun.java.command" value="C:\Users\khushipatel\AppData\Local\Temp\surefire4192159130024628850\surefirebooter17532672280691602455.jar C:\Users\khushipatel\AppData\Local\Temp\surefire4192159130024628850 2022-04-10T18-31-44_182-jvmRun1 surefire379526676601271577tmp surefire_04332439687458941679tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\khushipatel\eclipse-workspace\MySeleniumMavenAssignment\target\test-classes;C:\Users\khushipatel\eclipse-workspace\MySeleniumMavenAssignment\target\classes;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\khushipatel\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\khushipatel\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\khushipatel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\khushipatel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\khushipatel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\khushipatel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\khushipatel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\khushipatel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\khushipatel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\khushipatel\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\khushipatel\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\khushipatel\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\khushipatel\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\khushipatel\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\khushipatel\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\khushipatel\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\khushipatel\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\khushipatel\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\khushipatel\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\khushipatel\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\khushipatel\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\khushipatel\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\khushipatel\.m2\repository\org\apache\logging\log4j\log4j-api\2.8\log4j-api-2.8.jar;C:\Users\khushipatel\.m2\repository\org\apache\logging\log4j\log4j-core\2.8\log4j-core-2.8.jar;C:\Users\khushipatel\.m2\repository\software\reinvent\headless-chrome\0.3.6\headless-chrome-0.3.6.jar;C:\Users\khushipatel\.m2\repository\software\reinvent\commons\0.3.9\commons-0.3.9.jar;C:\Users\khushipatel\.m2\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;C:\Users\khushipatel\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\khushipatel\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\khushipatel\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\khushipatel\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\khushipatel\.m2\repository\com\typesafe\config\1.3.3\config-1.3.3.jar;C:\Users\khushipatel\.m2\repository\org\unbescape\unbescape\1.1.5.RELEASE\unbescape-1.1.5.RELEASE.jar;C:\Users\khushipatel\.m2\repository\com\github\rholder\guava-retrying\2.0.0\guava-retrying-2.0.0.jar;C:\Users\khushipatel\.m2\repository\com\github\mfornos\humanize-slim\1.2.2\humanize-slim-1.2.2.jar;C:\Users\khushipatel\.m2\repository\org\ocpsoft\prettytime\prettytime\3.2.5.Final\prettytime-3.2.5.Final.jar;C:\Users\khushipatel\.m2\repository\me\xuender\unidecode\0.0.7\unidecode-0.0.7.jar;C:\Users\khushipatel\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\khushipatel\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\khushipatel\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\khushipatel\.m2\repository\com\assertthat\selenium-shutterbug\0.7\selenium-shutterbug-0.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\khushipatel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="C:\.Net &amp; Java Software\Open JKD -11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\khushipatel\eclipse-workspace\MySeleniumMavenAssignment"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\khushipatel\AppData\Local\Temp\surefire4192159130024628850\surefirebooter17532672280691602455.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13"/>
+    <property name="user.name" value="khushipatel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\khushipatel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KHUSHI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="C:\Users\khushipatel\eclipse-workspace\MySeleniumMavenAssignment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\.Net &amp; Java Software\Open JKD -11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/.Net &amp; Java Software/Open JKD -11/bin/server;C:/.Net &amp; Java Software/Open JKD -11/bin;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\.Net &amp; Java Software\Open JKD -11\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\apache-maven-3.8.4\bin;C:\Program Files (x86)\dotnet\;C:\Users\khushipatel\AppData\Local\Microsoft\WindowsApps;C:\Users\khushipatel\.dotnet\tools;C:\Users\khushipatel\AppData\Roaming\npm;C:\Program Files\Azure Data Studio\bin;C:\Users\khushipatel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\khushipatel\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="NewUserRegistration[KhushiQA123, Mavennn@gmail.com, 123456](1)" classname="com.MySeleniumMavenAssignment.tests.NewUserAccountTest" time="0.999">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:31:48,616 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:31:55,036 [main] INFO : Amazon.in opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:31:56,047 [main] INFO : Reach to Amazon Registration
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 44584
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:31:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="BlankUserSignIn[](1)" classname="com.MySeleniumMavenAssignment.tests.SignInTest" time="0.807">
+    <system-out><![CDATA[&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:31:56,179 [main] INFO : Amazon.in closed
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:31:57,303 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:31:59,215 [main] INFO : Amazon.in opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:00,029 [main] INFO : It is again Amazon Sign In Page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 48901
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:31:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ValidUserSignIn[amzn.tester23@gmail.com, amzntester23](1)" classname="com.MySeleniumMavenAssignment.tests.SignInTest" time="3.621">
+    <system-out><![CDATA[&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:24,147 [main] INFO : Amazon.in closed
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:25,313 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:27,274 [main] INFO : Amazon.in opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:30,900 [main] INFO : It is a Amazon Sign In Page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 24630
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:32:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="InValidUserSignIn[amzn.tester232323@gmail.com](1)" classname="com.MySeleniumMavenAssignment.tests.SignInTest" time="1.79">
+    <failure message="expected [Amazonnn Sign In] but found [Amazon Sign In]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Amazonnn Sign In] but found [Amazon Sign In]
+	at com.MySeleniumMavenAssignment.tests.SignInTest.InValidUserSignIn(SignInTest.java:38)
+]]></failure>
+    <system-out><![CDATA[&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:31,006 [main] INFO : Amazon.in closed
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:32,142 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:34,169 [main] INFO : Amazon.in opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 7183
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:32:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Searchbox[selenium webdriver](1)" classname="com.MySeleniumMavenAssignment.tests.SearchboxTest" time="2.211">
+    <system-out><![CDATA[&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:00,142 [main] INFO : Amazon.in closed
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:01,303 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:03,688 [main] INFO : Amazon.in opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:05,906 [main] INFO : Search is Successful
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 48078
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:32:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="AddToCart[2](1)" classname="com.MySeleniumMavenAssignment.tests.ShoppingCartTest" time="8.294">
+    <system-out><![CDATA[&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:06,018 [main] INFO : Amazon.in closed
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:07,180 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:09,870 [main] INFO : Amazon.in opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:18,172 [main] INFO : It is a Amazon Shopping Cart Page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 20402
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:32:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Help" classname="com.MySeleniumMavenAssignment.tests.HelpTest" time="2.322">
+    <failure message="expected [Helppp - Amazonnn Customer Service] but found [Help - Amazon Customer Service]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Helppp - Amazonnn Customer Service] but found [Help - Amazon Customer Service]
+	at com.MySeleniumMavenAssignment.tests.HelpTest.Help(HelpTest.java:20)
+]]></failure>
+    <system-out><![CDATA[&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:18,283 [main] INFO : Amazon.in closed
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:19,464 [main] INFO : Chrome Browser opened
+&amp#27;[32mdisableAnsi=false&amp#27;[m (2022-04-10 18:32:21,606 [main] INFO : Amazon.in opened
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 45886
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 10, 2022 6:32:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 50.347 s <<< FAILURE! - in TestSuite
+com.MySeleniumMavenAssignment.tests.HelpTest.Help  Time elapsed: 2.322 s  <<< FAILURE!
+java.lang.AssertionError: expected [Helppp - Amazonnn Customer Service] but found [Help - Amazon Customer Service]
+	at com.MySeleniumMavenAssignment.tests.HelpTest.Help(HelpTest.java:20)
+
+com.MySeleniumMavenAssignment.tests.SignInTest.InValidUserSignIn[amzn.tester232323@gmail.com](1)  Time elapsed: 1.79 s  <<< FAILURE!
+java.lang.AssertionError: expected [Amazonnn Sign In] but found [Amazon Sign In]
+	at com.MySeleniumMavenAssignment.tests.SignInTest.InValidUserSignIn(SignInTest.java:38)
+

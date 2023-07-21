@@ -1,0 +1,33 @@
+22:51:33,778 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:51:39,441 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:51:40,714 [main] INFO  com.MySeleniumMavenAssignment.tests.NewUserAccountTest- Reach to Amazon Registration page
+22:51:40,718 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+22:51:40,849 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+22:51:41,914 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:51:45,094 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:51:45,929 [main] INFO  com.MySeleniumMavenAssignment.tests.SignInTest- It is again Amazon Sign In Page
+22:51:45,930 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+22:51:46,059 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+22:51:47,091 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:51:48,932 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:51:50,803 [main] INFO  com.MySeleniumMavenAssignment.tests.SearchboxTest- Search for product is Successful
+22:51:50,805 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+22:51:50,933 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+22:51:51,988 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:51:53,881 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:52:01,763 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case failed
+22:52:01,867 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+22:52:02,956 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:52:05,295 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:52:07,775 [main] INFO  com.MySeleniumMavenAssignment.tests.HelpTest- It is a Amazon Help Page
+22:52:07,776 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+22:52:07,867 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+22:52:08,945 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:52:11,475 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:52:16,008 [main] INFO  com.MySeleniumMavenAssignment.tests.SignInTest- It is a Amazon Sign In Page
+22:52:16,009 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+22:52:16,122 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+22:52:17,203 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+22:52:19,966 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+22:52:22,195 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case failed
+22:52:22,318 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed

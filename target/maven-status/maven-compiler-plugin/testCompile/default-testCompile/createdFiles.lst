@@ -1,0 +1,6 @@
+com\MySeleniumMavenAssignment\tests\SignInTest.class
+com\MySeleniumMavenAssignment\tests\HelpTest.class
+com\MySeleniumMavenAssignment\tests\ShoppingCartTest.class
+com\MySeleniumMavenAssignment\tests\BaseTest.class
+com\MySeleniumMavenAssignment\tests\SearchboxTest.class
+com\MySeleniumMavenAssignment\tests\NewUserAccountTest.class

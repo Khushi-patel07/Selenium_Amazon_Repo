@@ -1,0 +1,14 @@
+12:22:59,723 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+12:23:01,761 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+12:23:02,743 [main] INFO  com.MySeleniumMavenAssignment.tests.SignInTest- It is again Amazon Sign In Page
+12:23:02,743 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+12:23:02,863 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+12:23:04,088 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+12:23:05,941 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+12:23:08,325 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case failed
+12:23:08,480 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
+12:23:09,706 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Chrome browser was opened successfully
+12:23:11,546 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was opened
+12:23:13,098 [main] INFO  com.MySeleniumMavenAssignment.tests.SignInTest- It is again Amazon Sign In Page
+12:23:13,099 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Test case passed 
+12:23:13,217 [main] INFO  com.MySeleniumMavenAssignment.tests.BaseTest- Amazon.in website was closed
