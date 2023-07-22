@@ -2,27 +2,25 @@ pipeline{
      agent any
        environment{
        notifyEmail="khushi.patel@nagarro.com"
-}
+      }
   tools{
     maven 'maven_home'
    }
    triggers{
       cron('0 06 * * *')
-   }
+      }
   stages{
       stage("code checkout"){
           steps{
           bat "echo hello"
           }
-   }
-   stages{
-      stage("code build"){
+     }
+     stage("code build"){
           steps{
           bat "mvn clean"
           }
     }
-    stages{
-      stage("unit test"){
+     stage("unit test"){
           steps{
           bat "mvn test"
           }
@@ -34,4 +32,4 @@ post{
           }
       }
 }
-}
+
