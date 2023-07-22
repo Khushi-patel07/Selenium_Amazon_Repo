@@ -18,8 +18,8 @@ public class ShoppingCartPage {
 	@FindBy(how = How.XPATH, using = "//*[@id=\"nav-xshop\"]/a[3]")
 	public WebElement Bestseller;
 
-	@FindBy(how = How.XPATH, using = "//*[@id=\"anonCarousel1\"]/ol/li[1]/div[2]/div/a[2]/span/div")
-	public WebElement AmericanTourister;
+	@FindBy(how = How.XPATH, using = "//*[@id=\"B0BK1457X3\"]/a[2]/span/div")
+	public WebElement Product;
 
 	@FindBy(how = How.CSS, using = "#selectQuantity #quantity")
 	public WebElement quantity;
@@ -35,7 +35,7 @@ public class ShoppingCartPage {
 	}
 
 	public void SelectBag() {
-		AmericanTourister.click();
+		Product.click();
 	}
 
 	public void Selectquantity(String abc) {

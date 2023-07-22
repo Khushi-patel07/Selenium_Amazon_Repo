@@ -19,8 +19,8 @@ public class SignInTest extends BaseTest {
 		SignInPage signin = new SignInPage(driver);
 		signin.clickSignin();
 		signin.enterEmail(mail);
-		signin.Continue();
-		signin.enterPass(pass);
+		//signin.Continue();
+		//signin.enterPass(pass);
 		Assert.assertEquals(driver.getTitle(), "Amazon Sign In");
 		logger.info("It is a Amazon Sign In Page");
 

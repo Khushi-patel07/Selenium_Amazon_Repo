@@ -73,10 +73,10 @@ public class BaseTest {
 	@BeforeMethod(groups = { "sanity", "invalid" })
 	public static void intializeDriver() {
 		System.setProperty(properties.getProperty("driverProperty"), properties.getProperty("driverPath"));
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("headless");
-		driver = new ChromeDriver(options);
-		//driver = new ChromeDriver();
+//		ChromeOptions options = new ChromeOptions();
+//		options.addArguments("headless");
+//		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
 		// Headless Chrome is a way to run Chrome browser without the actual browser UI
 		// being spawned.
 		// its running Chrome without showing chrome.In headless mode there is no need a
